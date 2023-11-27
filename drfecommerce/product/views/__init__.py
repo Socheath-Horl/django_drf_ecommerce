@@ -1,1 +1,1 @@
-from .category import CategoryView
+from .category import CategoryViewSet

@@ -1,7 +1,7 @@
 from django.db import models
 from mptt.models import TreeForeignKey
 
-from . import Brand
+from drfecommerce.product.models import Brand
 
 
 class Product(models.Model):

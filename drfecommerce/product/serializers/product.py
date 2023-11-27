@@ -1,5 +1,6 @@
-from models import Product
 from rest_framework import serializers
+
+from drfecommerce.product.models import Product
 
 
 class ProductSerializer(serializers.ModelSerializer):

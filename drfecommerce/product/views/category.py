@@ -1,11 +1,12 @@
-from models import Category
 from rest_framework import viewsets
 from rest_framework.request import Request
 from rest_framework.response import Response
-from serializers import CategorySerializer
+
+from drfecommerce.product.models import Category
+from drfecommerce.product.serializers import CategorySerializer
 
 
-class CategoryView(viewsets.ViewSet):
+class CategoryViewSet(viewsets.ViewSet):
     """
     A Simple Viewset for viewing all categories
     """
